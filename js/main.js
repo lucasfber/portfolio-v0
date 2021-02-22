@@ -10,7 +10,7 @@
   const svgsContainer = document.querySelector('.svg-container');
 
   const getSVGS = () => {
-    fetch('../assets/svgs.svg')
+    fetch('assets/svgs.svg')
       .then((result) => result.text())
       .then((data) => {
         svgsContainer.innerHTML = data;

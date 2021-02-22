@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css">
   <title>Lucas Bertoldo | Fullstack Developer</title>
 </head>
@@ -73,9 +74,9 @@
     </section>
 
     <section class="about" id="about">
-      <h2 class="section-title">about me</h2>
+      <h2 class="section-title" data-aos="fade-in">about me</h2>
       <div class="content">
-        <div class="info">
+        <div class="info" data-aos="fade-right" data-aos-duration="700">
           <p>
             Hello! I'm Brittany, a software engineer based in Boston, MA. I
             enjoy creating things that live on the internet, whether that be
@@ -88,17 +89,17 @@
             nisi. Exercitationem, sit.
           </p>
         </div>
-        <div class="img-wrapper">
+        <div class="img-wrapper" data-aos="fade-left" data-aos-duration="700">
           <img src="assets/avatar.png" alt="Avatar image" />
         </div>
       </div>
     </section>
 
     <section class="experience" id="experience">
-      <h2 class="section-title">my experience</h2>
+      <h2 class="section-title" data-aos="fade-in">my experience</h2>
       <ul class="timeline">
         <li class="timeline-item">
-          <div class="card">
+          <div class="card" data-aos="fade-in" data-aos-duration="800">
             <div class="card-header">
               <p>2019 to 2021</p>
               <h4>
@@ -113,7 +114,7 @@
           </div>
         </li>
         <li class="timeline-item">
-          <div class="card">
+          <div class="card" data-aos="fade-in" data-aos-duration="800">
             <div class="card-header">
               <p>2019 to 2021</p>
               <h4>
@@ -128,7 +129,7 @@
           </div>
         </li>
         <li class="timeline-item">
-          <div class="card">
+          <div class="card" data-aos="fade-in" data-aos-duration="800">
             <div class="card-header">
               <p>2019 to 2021</p>
               <h4>
@@ -143,7 +144,7 @@
           </div>
         </li>
         <li class="timeline-item">
-          <div class="card">
+          <div class="card" data-aos="fade-in" data-aos-duration="800">
             <div class="card-header">
               <p>2019 to 2021</p>
               <h4>
@@ -161,9 +162,9 @@
     </section>
 
     <section class="work" id="work">
-      <h2 class="section-title">some things i’ve built</h2>
+      <h2 class="section-title" data-aos="fade-in">some things i’ve built</h2>
       <div class="projects-grid">
-        <div class="project">
+        <div class="project" data-aos="fade-in" data-aos-duration="900">
           <div class="content">
             <img src=http://findmatthew.com/img/blog-1.jpg alt="Project demo image" />
             <div class="project-info">
@@ -197,7 +198,7 @@
           </div>
         </div>
 
-        <div class="project">
+        <div class="project" data-aos="fade-in" data-aos-duration="900">
           <div class="content">
             <img src=http://findmatthew.com/img/blog-1.jpg alt="Project demo image" />
             <div class="project-info">
@@ -231,7 +232,7 @@
           </div>
         </div>
 
-        <div class="project">
+        <div class="project" data-aos="fade-in" data-aos-duration="900">
           <div class="content">
             <img src=http://findmatthew.com/img/blog-1.jpg alt="Project demo image" />
             <div class="project-info">
@@ -265,7 +266,7 @@
           </div>
         </div>
       </div>
-      <div class="btn-wrapper">
+      <div class="btn-wrapper" data-aos="fade-in" data-aos-duration="900" data-aos-delay="100">
         <a class="btn btn-see-more" to="#work">
           See more
         </a>
@@ -273,16 +274,15 @@
     </section>
 
     <section class="contact" id="contact">
-      <h2 class="section-title">get in touch</h2>
+      <h2 class="section-title" data-aos="fade-in">get in touch</h2>
 
-      <h3>
+      <h3 data-aos="fade-in" data-aos-duration="900" data-aos-delay="400">
         If you wanna get in touch, talk to me about a project idea, fill up
         the form below or send an email to
         <a href="mailto:lucas.fber@gmail.com"> lucas.fber@gmail.com </a>
       </h3>
 
-      <form>
-        <InputText type="text" label="Name" required />
+      <form data-aos="fade-in" data-aos-duration="900" data-aos-delay="700">
         <div class="input-data">
           <input type="text" required />
           <div class="underline"></div>
@@ -318,28 +318,28 @@
       </svg>
     </button>
     <ul class="social-links">
-      <li>
+      <li data-aos="fade-in" data-aos-anchor=".form-control" data-aos-duration="900" data-aos-delay="200">
         <a href="#/">
           <svg class="icon">
             <use xlink:href="#linkedin" />
           </svg>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-in" data-aos-anchor=".form-control" data-aos-duration="900" data-aos-delay="350">
         <a href="#/">
           <svg class="icon">
             <use xlink:href="#github" />
           </svg>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-in" data-aos-anchor=".form-control" data-aos-duration="900" data-aos-delay="500">
         <a href="#/">
           <svg class="icon">
             <use xlink:href="#codepen" />
           </svg>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-in" data-aos-anchor=".form-control" data-aos-duration="900" data-aos-delay="650">
         <a href="mailto:lucas.fber@gmail.com">
           <!--  <img src="assets/gmail.svg" alt="Gmail icon"> -->
           <svg class="icon">
@@ -348,7 +348,7 @@
         </a>
       </li>
     </ul>
-    <p>
+    <p data-aos="fade-in" data-aos-anchor=".form-control" data-aos-duration="900" data-aos-delay="800">
       Design and Code by
       <span>
         <a class="repo-link" href="https://github.com/lucasfber/portfolio">
@@ -360,22 +360,29 @@
     </p>
   </footer>
   <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-in',
+      once: false,
+    });
+  </script>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="coding" viewBox="0 0 511.997 511.997">
       <title>coding</title>
       <g xmlns="http://www.w3.org/2000/svg">
         <g>
-          <path d="M506.76,242.828l-118.4-125.44c-7.277-7.718-19.424-8.07-27.142-0.787c-7.706,7.277-8.064,19.43-0.781,27.142 l105.965,112.256L360.437,368.268c-7.283,7.712-6.925,19.859,0.781,27.142c3.712,3.501,8.454,5.235,13.178,5.235 c5.101,0,10.195-2.022,13.965-6.01l118.4-125.446C513.742,261.785,513.742,250.226,506.76,242.828z" fill="#ffffff" data-original="#000000" style="" class="" />
+          <path d="M506.76,242.828l-118.4-125.44c-7.277-7.718-19.424-8.07-27.142-0.787c-7.706,7.277-8.064,19.43-0.781,27.142 l105.965,112.256L360.437,368.268c-7.283,7.712-6.925,19.859,0.781,27.142c3.712,3.501,8.454,5.235,13.178,5.235 c5.101,0,10.195-2.022,13.965-6.01l118.4-125.446C513.742,261.785,513.742,250.226,506.76,242.828z" fill="#ffffff" data-original="#000000" />
         </g>
       </g>
       <g xmlns="http://www.w3.org/2000/svg">
         <g>
-          <path d="M151.566,368.262L45.608,255.999l105.958-112.262c7.277-7.712,6.925-19.866-0.787-27.142 c-7.706-7.277-19.866-6.925-27.142,0.787l-118.4,125.44c-6.982,7.398-6.982,18.963,0,26.362L123.643,394.63 c3.776,4,8.864,6.016,13.965,6.016c4.723,0,9.466-1.741,13.171-5.242C158.498,388.127,158.843,375.974,151.566,368.262z" fill="#ffffff" data-original="#000000" style="" class="" />
+          <path d="M151.566,368.262L45.608,255.999l105.958-112.262c7.277-7.712,6.925-19.866-0.787-27.142 c-7.706-7.277-19.866-6.925-27.142,0.787l-118.4,125.44c-6.982,7.398-6.982,18.963,0,26.362L123.643,394.63 c3.776,4,8.864,6.016,13.965,6.016c4.723,0,9.466-1.741,13.171-5.242C158.498,388.127,158.843,375.974,151.566,368.262z" fill="#ffffff" data-original="#000000" />
         </g>
       </g>
       <g xmlns="http://www.w3.org/2000/svg">
         <g>
-          <path d="M287.061,52.697c-10.477-1.587-20.282,5.606-21.882,16.083l-56.32,368.64c-1.6,10.483,5.6,20.282,16.083,21.882 c0.986,0.147,1.958,0.218,2.925,0.218c9.325,0,17.504-6.803,18.957-16.301l56.32-368.64 C304.744,64.095,297.544,54.297,287.061,52.697z" fill="#ffffff" data-original="#000000" style="" class="" />
+          <path d="M287.061,52.697c-10.477-1.587-20.282,5.606-21.882,16.083l-56.32,368.64c-1.6,10.483,5.6,20.282,16.083,21.882 c0.986,0.147,1.958,0.218,2.925,0.218c9.325,0,17.504-6.803,18.957-16.301l56.32-368.64 C304.744,64.095,297.544,54.297,287.061,52.697z" fill="#ffffff" data-original="#000000" />
         </g>
       </g>
     </symbol>

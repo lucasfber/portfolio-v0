@@ -7,6 +7,17 @@
   const scrollToTopButton = document.querySelector('.btn-stt');
   const menuItems = document.querySelectorAll('.menu-item');
   const currentYear = document.querySelector('.current-year');
+  const svgsContainer = document.querySelector('.svg-container');
+
+  const getSVGS = () => {
+    fetch('../assets/svgs.svg')
+      .then((result) => result.text())
+      .then((data) => {
+        svgsContainer.innerHTML = data;
+      });
+  };
+
+  getSVGS();
 
   const toggleMenu = () => {
     navMenu.classList.toggle('show');

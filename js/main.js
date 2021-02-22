@@ -6,6 +6,7 @@
   const closeMenuButton = document.querySelector('.close-menu');
   const scrollToTopButton = document.querySelector('.btn-stt');
   const menuItems = document.querySelectorAll('.menu-item');
+  const currentYear = document.querySelector('.current-year');
 
   const toggleMenu = () => {
     navMenu.classList.toggle('show');
@@ -23,6 +24,11 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const setCurrentYear = () => {
+    currentYear.innerHTML = `${new Date().getFullYear()}`;
+  };
+
+  setCurrentYear();
   toggleMenuButton.addEventListener('click', toggleMenu);
   closeMenuButton.addEventListener('click', toggleMenu);
   scrollToTopButton.addEventListener('click', scrollToTop);

@@ -814,6 +814,7 @@ a.btn-resume-link {
   width: 100%;
   text-align: center;
   background-color: var(--green);
+  cursor: pointer;
 }
 
 .btn-see-more:hover {
